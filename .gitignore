@@ -1,0 +1,48 @@
+# ############################### #
+# Visual Studio / C# .NET Projesi #
+# ############################### #
+
+# Kullanýcýya özel ayarlar
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build çýktýlarý
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+x64/
+x86/
+
+# VS Diagnostik ve Test dosyalarý
+TestResults/
+*.VisualState.xml
+*.DotSettings
+*.vspscc
+
+# NuGet paketleri (packages.config kullanýlýyorsa)
+# Eðer 'paketleri geri yükle' kullanýlýyorsa bu klasörün repoya eklenmesi gerekmez.
+packages/
+# 'project.json' için build cache'i
+project.lock.json
+project.assets.json
+
+# Visual Studio 2017+ cache
+.vs/
+*.csproj.dotsettings.user
+
+# Rider (JetBrains)
+.idea/
+
+# ####################### #
+# Vosk Projesine Özel #
+# ####################### #
+
+# Ýndirilen büyük model dosyalarýný YÜKLEME!
+# Bunlar çok büyük olur ve repoda yer kaplar.
+model/
+vosk-model*/
+*.zip
+*.rar
